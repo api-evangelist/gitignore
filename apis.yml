@@ -1,0 +1,14 @@
+name: .gitignore
+description: Git configuration file specifying intentionally untracked files and directories
+  that Git should ignore, preventing build artifacts, dependencies, and secrets from
+  being committed.
+url: ''
+tags:
+- Git
+- Version Control
+- Configuration
+- Repository
+created: '2025'
+modified: '2025'
+apis: []
+common: []
