@@ -1,5 +1,5 @@
 aid: gitignore
-name: .gitignore
+name: .Gitignore
 description: Git configuration file specifying intentionally untracked files and directories
   that Git should ignore, preventing build artifacts, dependencies, and secrets from
   being committed.
