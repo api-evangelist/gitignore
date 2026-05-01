@@ -1,0 +1,24 @@
+aid: gitignore:vocabulary
+name: .gitignore Vocabulary
+description: Terms and concepts used in .gitignore configuration.
+terms:
+  - term: Pattern
+    definition: A line in a .gitignore file that matches one or more file paths.
+  - term: Glob
+    definition: A shell-style wildcard pattern used to match file names.
+  - term: Negation
+    definition: A pattern prefixed with ! that re-includes a previously ignored file.
+  - term: Anchored Pattern
+    definition: A pattern starting with / that is anchored to the location of the .gitignore.
+  - term: Tracked File
+    definition: A file already committed to the repository; not affected by .gitignore.
+  - term: Untracked File
+    definition: A file not under Git version control that may be ignored or staged.
+  - term: Global Ignore File
+    definition: A user-level ignore file referenced by core.excludesFile.
+  - term: Local Exclude File
+    definition: The repository-local .git/info/exclude file used for personal ignores.
+  - term: Wildcard
+    definition: A character such as *, ?, or ** used to match multiple paths.
+  - term: Directory Match
+    definition: A pattern ending with / that targets only directories.

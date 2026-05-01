@@ -1,0 +1,30 @@
+aid: gitignore:rules
+name: .gitignore Rules
+description: Pattern syntax and processing rules for .gitignore files used by Git.
+rules:
+  - name: Blank Lines Ignored
+    description: A blank line matches no files; commonly used as a separator for readability.
+  - name: Comment Lines
+    description: A line starting with # is a comment; escape with \# to match files starting with #.
+  - name: Trailing Spaces
+    description: Trailing spaces are ignored unless escaped with a backslash.
+  - name: Negation Pattern
+    description: A prefix ! negates the pattern, re-including a file matched by a previous pattern.
+  - name: Directory Pattern
+    description: A trailing slash makes the pattern match only directories.
+  - name: Anchored Pattern
+    description: A leading slash anchors the pattern to the directory of the .gitignore file.
+  - name: Glob Wildcards
+    description: Supports * (any except /), ? (single char), and [abc] character classes.
+  - name: Double Asterisk
+    description: ** matches across directory boundaries; leading **/ matches in any directory.
+  - name: Excluded Parent Directory
+    description: A file cannot be re-included if its parent directory is excluded.
+  - name: Hierarchical Files
+    description: .gitignore files at deeper levels override patterns from parent directories.
+  - name: Global Excludes
+    description: core.excludesFile in git config defines a system-wide ignore file.
+  - name: Tracked Files Unaffected
+    description: .gitignore only affects untracked files; tracked files require git rm --cached.
+  - name: Multiple Locations
+    description: Patterns can live in repo .gitignore, .git/info/exclude, or core.excludesFile.
