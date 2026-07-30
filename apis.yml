@@ -2,7 +2,18 @@ aid: gitignore
 name: .Gitignore
 description: Git configuration file specifying intentionally untracked files and directories that Git should ignore, preventing build artifacts, dependencies, and secrets from being committed.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gitignore.png
 access: 3rd-Party
 created: '2025-01-01'
 modified: '2026-04-28'
